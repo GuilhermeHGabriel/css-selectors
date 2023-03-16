@@ -12,7 +12,7 @@ h1,h2,h3{
     margin: .5em;0
 }
 
-p+h1+h3{
+p + h1 + h3{
     color: purple;
     font-family: sans-serif;
     font-weight: bold;
@@ -36,7 +36,7 @@ p > header{
     border-radius: 50%;
 }
 
-rel="external":link{
+a:visited rel="external"{
     color: purple;
 }
 
@@ -48,7 +48,7 @@ section > main{
     margin-bottom: 3rem;
 }
 
-p > strong{
+#section-1 > h2 ~ p strong{
     color: purple;
 }
 
