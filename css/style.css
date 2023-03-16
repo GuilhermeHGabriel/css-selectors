@@ -12,7 +12,7 @@ h1,h2,h3{
     margin: .5em;0
 }
 
-h1+h3+p{
+p+h1+h3{
     color: purple;
     font-family: sans-serif;
     font-weight: bold;
@@ -22,11 +22,40 @@ div header{
     margin: .5em 0;
 }
 
-*h2{
+h2{
     text-transform: uppercase;
     border-bottom: 2px; solid: #000;
 }
 
 p > header{
     font-size: 1.25rem;
+}
+
+.profile-pic{
+    width: 150px;
+    border-radius: 50%;
+}
+
+rel="external":link{
+    color: purple;
+}
+
+section:first-of-type{
+    border-bottom: 2px dashed #ccc;
+}
+
+section > main{
+    margin-bottom: 3rem;
+}
+
+p > strong{
+    color: purple;
+}
+
+li{
+    color: purple;
+}
+
+div dl{
+    background-color: #ccc;
 }
